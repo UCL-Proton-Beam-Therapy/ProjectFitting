@@ -5,11 +5,12 @@ This purely VHDL and simulation based FPGA coding to present important component
 
 Contains:
 ### 1. Linear Fitting using Least Squares Method 
-Within the  LinearRegression folder two files can be find:
+Within the  LinearRegression folder, 2 files can be find:
 1. [MainFitting.vhd](https://github.com/UCL-Proton-Beam-Therapy/ProjectFitting/blob/main/LinearRegression/MainFitting.vhd): Main file source for its functionality comprising 3 inputs points.
 2. [PerfectFit.vhd](https://github.com/UCL-Proton-Beam-Therapy/ProjectFitting/blob/main/LinearRegression/PerfectFit.vhd): Simulation file to simulate and analyse the behaviouur of the main file. 
 
-###Read Data File (ReadTxtFile Folder)
+### 2. Read Data File (ReadTxtFile Folder)
+Within the ReadTxtFile folder, 3 files can be find:
 1. [ReadFile.vhd](https://github.com/UCL-Proton-Beam-Therapy/ProjectFitting/blob/main/ReadTxtFile/ReadFiles.vhd): Main file source for its functionality reading line data as character.
 2. [ReadData.vhd](https://github.com/UCL-Proton-Beam-Therapy/ProjectFitting/blob/main/ReadTxtFile/ReadData.vhd): Simulation to validate the output is obtained as expected.
    
